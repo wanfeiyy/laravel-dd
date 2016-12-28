@@ -1,0 +1,19 @@
+{
+    "name": "wanfeiyy/dd",
+    "description": "use laravel dd replace var_dump",
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanfeiyy",
+            "email": "w454852895@163.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Dd\\": "src/Dd"
+		}
+	}	
+}
