@@ -12,6 +12,7 @@
         }
     ],
 	"autoload": {
+		"files": ["src/Dd/helpers.php"],
 		"psr-4": {
 			"Dd\\": "src/Dd"
 		}
