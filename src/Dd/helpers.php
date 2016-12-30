@@ -1,8 +1,6 @@
 <?php
 
 use Dd\Dumper;
-use Symfony\Component\VarDumper\Dumper\CliDumper;
-use Symfony\Component\VarDumper\Cloner\VarCloner;
 
 if (! function_exists('dd')) {
 	function dd ()
@@ -12,7 +10,6 @@ if (! function_exists('dd')) {
         }, func_get_args());
 
         die(1);
-		
 	}
-	
 }
+
